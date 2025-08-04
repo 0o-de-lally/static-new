@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Custom Colors */
-:root {
-    --brand-red: #E75A5C; /* Updated to match the precise color from the logo */
-}
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
