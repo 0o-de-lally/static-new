@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Libra - The Future, Secured</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Poppins', 'sans-serif'],
+                        body: ['Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        'brand-red': '#DC1F3D',
+                        'brand-cream': '#FAF3E7',
+                    },
+                },
+            },
+        }
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="min-h-screen bg-brand-red text-brand-cream" x-data="content" x-init="loadContent()">
+    <!-- Navigation -->
+    <nav class="p-4 border-b border-opacity-20 border-brand-cream">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-semibold tracking-wide font-display">Open Libra</a>
+            <div class="space-x-8 text-sm font-light tracking-wide font-body">
+                <a href="#about" class="hover:opacity-80">About</a>
+                <a href="#strategy" class="hover:opacity-80">Strategy</a>
+                <a href="#governance" class="hover:opacity-80">Governance</a>
+                <a href="#documentation" class="hover:opacity-80">Documentation</a>
+                <a href="#contact" class="hover:opacity-80">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto px-4 py-24">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-7xl font-bold mb-6 tracking-wide leading-tight font-display" x-text="data.hero.title">The Future, Secured</h1>
+            <p class="text-xl font-light opacity-90 max-w-3xl mx-auto tracking-normal leading-relaxed font-body mb-12" x-text="data.hero.subtitle">
+                An institutional investment DAO leveraging AI-driven strategies to build an evergreen legacy in the decentralized world
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#" class="inline-block px-10 py-3 border border-brand-cream rounded-full text-lg font-light tracking-wide font-body hover:bg-brand-cream hover:text-brand-red transition-colors duration-300">
+                    Explore Our Strategy
+                </a>
+                <a href="#" class="inline-block px-10 py-3 bg-brand-cream text-brand-red rounded-full text-lg font-light tracking-wide font-body hover:opacity-90 transition-opacity duration-300">
+                    View Documentation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto px-4 py-24 border-t border-opacity-20 border-brand-cream">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6 font-display" x-text="data.about.title">Institutional Intelligence On-Chain</h2>
+                    <p class="text-lg font-light leading-relaxed font-body mb-6" x-text="data.about.description">
+                        Open Libra is a critical long-running endowment designed to help humanity hedge its bets on a future dominated by artificial intelligence. We secure dignity for our members while investing in acceleration of dignity for the public good.
+                    </p>
+                    <p class="text-lg font-light leading-relaxed font-body opacity-90" x-text="data.about.mission">
+                        Our on-chain Investment DAO serves as an institutional vehicle built to address the most urgent needs of a rapidly changing world, ensuring a resilient and purpose-driven future.
+                    </p>
+                </div>
+                <div class="space-y-8">
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-6">
+                        <h3 class="text-xl font-semibold font-display mb-3">100+ Year Horizon</h3>
+                        <p class="font-body font-light">Built for enduring impact with a permanent, legacy-focused perspective.</p>
+                    </div>
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-6">
+                        <h3 class="text-xl font-semibold font-display mb-3">AI-Driven Strategy</h3>
+                        <p class="font-body font-light">Leveraging artificial intelligence to identify and invest in the most promising future-facing technologies.</p>
+                    </div>
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-6">
+                        <h3 class="text-xl font-semibold font-display mb-3">Regulatory Compliance</h3>
+                        <p class="font-body font-light">Trustworthy and compliant framework designed for institutional investors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Pillars Section -->
+    <section class="container mx-auto px-4 py-24 border-t border-opacity-20 border-brand-cream">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-16 font-display">Our Foundation</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <h3 class="text-2xl font-semibold font-display mb-4">Trustworthy & Compliant</h3>
+                    <p class="font-body font-light leading-relaxed">The reliable and secure choice for institutional investors, signaling stability and steadfast commitment to regulatory compliance.</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-2xl font-semibold font-display mb-4">Forward-Thinking & Intelligent</h3>
+                    <p class="font-body font-light leading-relaxed">Not just participating in the future, but building it through strategic intelligence and deep understanding of AI and decentralized technology.</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-2xl font-semibold font-display mb-4">Independent & Enduring</h3>
+                    <p class="font-body font-light leading-relaxed">Built for a 100+ year time horizon with strength, self-governance, and a permanent legacy-focused perspective.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategy Section -->
+    <section id="strategy" class="container mx-auto px-4 py-24 border-t border-opacity-20 border-brand-cream">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6 font-display">AI Plus Strategy</h2>
+                <p class="text-xl font-light opacity-90 max-w-3xl mx-auto font-body">
+                    Our investment approach combines artificial intelligence with strategic human oversight to identify and capitalize on emerging opportunities in the decentralized ecosystem.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-16">
+                <div>
+                    <h3 class="text-2xl font-semibold font-display mb-6">Investment Focus</h3>
+                    <ul class="space-y-4 font-body font-light">
+                        <li class="flex items-start"><span class="mr-3">•</span>Future-facing technologies with long-term potential</li>
+                        <li class="flex items-start"><span class="mr-3">•</span>AI and machine learning infrastructure</li>
+                        <li class="flex items-start"><span class="mr-3">•</span>Decentralized finance protocols and platforms</li>
+                        <li class="flex items-start"><span class="mr-3">•</span>Digital assets with institutional adoption</li>
+                        <li class="flex items-start"><span class="mr-3">•</span>Technologies that accelerate human dignity</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold font-display mb-6">Risk Management</h3>
+                    <ul class="space-y-4 font-body font-light">
+                        <li class="flex items-start"><span class="mr-3">•</span>Diversified portfolio across sectors and geographies</li>
+                        <li class="flex items-start"><span class="mr-3">•</span>AI-powered risk assessment and monitoring</li>
+                        <li class="flex items-start"><span class="mr-3">•</span>Regulatory compliance at every level</li>
+                        <li class="flex items-start"><span class="mr-3">•</span>Long-term value preservation strategies</li>
+                        <li class="flex items-start"><span class="mr-3">•</span>Transparent governance and reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="container mx-auto px-4 py-24 border-t border-opacity-20 border-brand-cream">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6 font-display">Building an Evergreen Legacy</h2>
+            <p class="text-xl font-light opacity-90 mb-12 font-body">
+                Join us in pioneering a new paradigm of AI-driven investment that secures the future while preserving human dignity.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#" class="inline-block px-10 py-3 bg-brand-cream text-brand-red rounded-full text-lg font-light tracking-wide font-body hover:opacity-90 transition-opacity duration-300">
+                    Get Started
+                </a>
+                <a href="#" class="inline-block px-10 py-3 border border-brand-cream rounded-full text-lg font-light tracking-wide font-body hover:bg-brand-cream hover:text-brand-red transition-colors duration-300">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-12 border-t border-opacity-20 border-brand-cream">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold font-display mb-4">Open Libra</h3>
+                    <p class="font-body font-light text-sm opacity-80">Institutional intelligence on-chain. The future, secured.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold font-display mb-4">Platform</h4>
+                    <ul class="space-y-2 font-body font-light text-sm">
+                        <li><a href="#" class="hover:opacity-80">Strategy</a></li>
+                        <li><a href="#" class="hover:opacity-80">Governance</a></li>
+                        <li><a href="#" class="hover:opacity-80">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold font-display mb-4">Resources</h4>
+                    <ul class="space-y-2 font-body font-light text-sm">
+                        <li><a href="#" class="hover:opacity-80">Documentation</a></li>
+                        <li><a href="#" class="hover:opacity-80">Whitepaper</a></li>
+                        <li><a href="#" class="hover:opacity-80">Research</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold font-display mb-4">Connect</h4>
+                    <ul class="space-y-2 font-body font-light text-sm">
+                        <li><a href="#" class="hover:opacity-80">Contact</a></li>
+                        <li><a href="#" class="hover:opacity-80">Support</a></li>
+                        <li><a href="#" class="hover:opacity-80">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-opacity-20 border-brand-cream mt-12 pt-8 text-center">
+                <p class="font-body font-light text-sm opacity-80" x-text="data.footer.copyright">© 2025 Open Libra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
