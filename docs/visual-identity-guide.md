@@ -10,7 +10,7 @@
   - Bold (700) for main headlines
   - Semibold (600) for the logo
   - Regular (400) for section headings
-- **Characteristics**: 
+- **Characteristics**:
   - Geometric sans-serif
   - Modern and forward-thinking
   - Clean and professional
@@ -30,13 +30,13 @@
 ## Color Palette
 
 ### Primary Colors
-- **Brand Red** 
-  - HEX: `#DC1F3D`
+- **Brand Red**
+  - HEX: `#E75A5C`
   - Usage: Primary background color
   - Properties: Bold, energetic, commanding attention
 
 ### Secondary Colors
-- **Brand Cream** 
+- **Brand Cream**
   - HEX: `#FAF3E7`
   - Usage: Text color, button borders
   - Properties: Warm, soft, highly readable on red background
@@ -123,7 +123,7 @@ bg-brand-red  /* Background red */
 text-brand-cream /* Text color */
 
 <!-- Button Base -->
-inline-block rounded-full border border-brand-cream 
+inline-block rounded-full border border-brand-cream
 px-10 py-3 transition-colors duration-300
 ```
 

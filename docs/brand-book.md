@@ -60,7 +60,7 @@ Our color palette is designed to be bold and highly readable, while maintaining 
 
 * ### Primary Colors
     * **Brand Red**
-        * HEX: `#DC1F3D`
+        * HEX: `#E75A5C`
         * Usage: Primary background color
         * Properties: Bold, energetic, commanding attention
 
