@@ -1,0 +1,72 @@
+{
+  "navigation": [
+    { "label": "About", "href": "#about" },
+    { "label": "Strategy", "href": "#strategy" },
+    { "label": "Governance", "href": "#governance" },
+    { "label": "Documentation", "href": "#documentation" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "title": "The Future, Secured",
+    "subtitle": "An institutional investment DAO leveraging AI-driven strategies to build an evergreen legacy in the decentralized world"
+  },
+  "about": {
+    "title": "Institutional Intelligence On-Chain",
+    "description": "Open Libra is a critical long-running endowment designed to help humanity hedge its bets on a future dominated by artificial intelligence. We secure dignity for our members while investing in acceleration of dignity for the public good.",
+    "mission": "Our on-chain Investment DAO serves as an institutional vehicle built to address the most urgent needs of a rapidly changing world, ensuring a resilient and purpose-driven future."
+  },
+  "aboutHighlights": [
+    {
+      "title": "100+ Year Horizon",
+      "description": "Built for enduring impact with a permanent, legacy-focused perspective."
+    },
+    {
+      "title": "AI-Driven Strategy",
+      "description": "Leveraging artificial intelligence to identify and invest in the most promising future-facing technologies."
+    },
+    {
+      "title": "Regulatory Compliance",
+      "description": "Trustworthy and compliant framework designed for institutional investors."
+    }
+  ],
+  "foundation": [
+    {
+      "title": "Trustworthy & Compliant",
+      "description": "The reliable and secure choice for institutional investors, signaling stability and steadfast commitment to regulatory compliance."
+    },
+    {
+      "title": "Forward-Thinking & Intelligent",
+      "description": "Not just participating in the future, but building it through strategic intelligence and deep understanding of AI and decentralized technology."
+    },
+    {
+      "title": "Independent & Enduring",
+      "description": "Built for a 100+ year time horizon with strength, self-governance, and a permanent legacy-focused perspective."
+    }
+  ],
+  "strategy": {
+    "title": "AI Plus Strategy",
+    "description": "Our investment approach combines artificial intelligence with strategic human oversight to identify and capitalize on emerging opportunities in the decentralized ecosystem.",
+    "focus": [
+      "Future-facing technologies with long-term potential",
+      "AI and machine learning infrastructure",
+      "Decentralized finance protocols and platforms",
+      "Digital assets with institutional adoption",
+      "Technologies that accelerate human dignity"
+    ],
+    "riskManagement": [
+      "Diversified portfolio across sectors and geographies",
+      "AI-powered risk assessment and monitoring",
+      "Regulatory compliance at every level",
+      "Long-term value preservation strategies",
+      "Transparent governance and reporting"
+    ]
+  },
+  "cta": {
+    "title": "Building an Evergreen Legacy",
+    "description": "Join us in pioneering a new paradigm of AI-driven investment that secures the future while preserving human dignity.",
+    "buttons": [
+      { "label": "Get Started", "href": "#" },
+      { "label": "Learn More", "href": "#" }
+    ]
+  }
+}
