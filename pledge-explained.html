@@ -48,7 +48,7 @@
       x-data="{ data: {}, mobileMenuOpen: false, loaded: false, openFaq: null }"
       x-init="fetch('data/text-content.json').then(response => response.json()).then(json => { data = json; loaded = true; $nextTick(() => $el.classList.add('show')); })"
       x-cloak>
-    
+
     <!-- Navigation -->
     <nav class="p-4 border-b border-opacity-20 border-brand-cream">
         <div class="container mx-auto flex justify-between items-center">
@@ -120,10 +120,10 @@
         <section class="py-12 md:py-16 border-t border-opacity-20 border-brand-cream bg-brand-charcoal">
             <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto space-y-6">
-                    
+
                     <!-- FAQ Item 1 -->
                     <div class="border border-opacity-30 border-brand-cream rounded-lg">
-                        <button @click="openFaq = openFaq === 1 ? null : 1" 
+                        <button @click="openFaq = openFaq === 1 ? null : 1"
                                 class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
                             <div class="flex justify-between items-center">
                                 <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">1. Yes, We Took It</h3>
@@ -141,7 +141,7 @@
 
                     <!-- FAQ Item 2 -->
                     <div class="border border-opacity-30 border-brand-cream rounded-lg">
-                        <button @click="openFaq = openFaq === 2 ? null : 2" 
+                        <button @click="openFaq = openFaq === 2 ? null : 2"
                                 class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
                             <div class="flex justify-between items-center">
                                 <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">2. To Fulfill the Promise of Good Capital</h3>
@@ -162,7 +162,7 @@
 
                     <!-- FAQ Item 3 -->
                     <div class="border border-opacity-30 border-brand-cream rounded-lg">
-                        <button @click="openFaq = openFaq === 3 ? null : 3" 
+                        <button @click="openFaq = openFaq === 3 ? null : 3"
                                 class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
                             <div class="flex justify-between items-center">
                                 <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">3. By Producing the Best Open Asset</h3>
@@ -190,7 +190,7 @@
 
                     <!-- FAQ Item 4 -->
                     <div class="border border-opacity-30 border-brand-cream rounded-lg">
-                        <button @click="openFaq = openFaq === 4 ? null : 4" 
+                        <button @click="openFaq = openFaq === 4 ? null : 4"
                                 class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
                             <div class="flex justify-between items-center">
                                 <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">4. Which is Fiercely Independent</h3>
@@ -212,7 +212,7 @@
 
                     <!-- FAQ Item 5 -->
                     <div class="border border-opacity-30 border-brand-cream rounded-lg">
-                        <button @click="openFaq = openFaq === 5 ? null : 5" 
+                        <button @click="openFaq = openFaq === 5 ? null : 5"
                                 class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
                             <div class="flex justify-between items-center">
                                 <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">5. Uses Modern Tools</h3>
@@ -228,7 +228,7 @@
 
                     <!-- FAQ Item 6 -->
                     <div class="border border-opacity-30 border-brand-cream rounded-lg">
-                        <button @click="openFaq = openFaq === 6 ? null : 6" 
+                        <button @click="openFaq = openFaq === 6 ? null : 6"
                                 class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
                             <div class="flex justify-between items-center">
                                 <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">6. Has Plans Measured in Centuries</h3>
@@ -249,7 +249,7 @@
 
                     <!-- FAQ Item 7 -->
                     <div class="border border-opacity-30 border-brand-cream rounded-lg">
-                        <button @click="openFaq = openFaq === 7 ? null : 7" 
+                        <button @click="openFaq = openFaq === 7 ? null : 7"
                                 class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
                             <div class="flex justify-between items-center">
                                 <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">7. To Become an Unstoppable Force</h3>
