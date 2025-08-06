@@ -13,6 +13,10 @@
       "href": "#example"
     },
     {
+      "label": "Links",
+      "href": "#links"
+    },
+    {
       "label": "Governance",
       "href": "#governance"
     },
@@ -121,6 +125,34 @@
       {
         "label": "Learn More",
         "href": "#"
+      }
+    ]
+  },
+  "links": {
+    "title": "Resources & Links",
+    "description": "Everything you need to get started with Open Libra.",
+    "categories": [
+      {
+        "title": "Get Started",
+        "links": [
+          { "label": "Wallet", "href": "https://github.com/0LNetworkCommunity/carpe", "description": "Download the Open Libra wallet" },
+          { "label": "Block Explorer", "href": "https://scan.openlibra.io/", "description": "Explore the blockchain" }
+        ]
+      },
+      {
+        "title": "Learn More",
+        "links": [
+          { "label": "Documentation", "href": "https://docs.openlibra.io/", "description": "Complete technical documentation" },
+          { "label": "Manifesto", "href": "./data/manifesto.txt", "description": "Our vision and principles" },
+          { "label": "Libra Liberated", "href": "https://docs.openlibra.io/blog/libra-liberated", "description": "The story behind the fork" }
+        ]
+      },
+      {
+        "title": "Developers",
+        "links": [
+          { "label": "Papers", "href": "https://docs.openlibra.io/blog/proof-of-fee-part-1", "description": "Research papers and technical specs" },
+          { "label": "Code", "href": "https://github.com/0LNetworkCommunity/libra-framework", "description": "Open source codebase" }
+        ]
       }
     ]
   }

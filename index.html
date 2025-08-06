@@ -190,6 +190,34 @@
         </div>
     </section>
 
+    <!-- Links Section -->
+    <section id="links" class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display" x-text="data.links.title"></h2>
+                <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl mx-auto font-body" x-text="data.links.description"></p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+                <template x-for="category in data.links.categories" :key="category.title">
+                    <div class="space-y-4">
+                        <h3 class="text-xl md:text-2xl font-semibold font-display mb-4" x-text="category.title"></h3>
+                        <div class="space-y-3">
+                            <template x-for="link in category.links" :key="link.label">
+                                <div class="border border-opacity-20 border-brand-cream rounded-lg p-4 hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                                    <a :href="link.href" class="block" target="_blank" rel="noopener noreferrer">
+                                        <h4 class="font-semibold font-display mb-1" x-text="link.label"></h4>
+                                        <p class="text-sm font-light opacity-80 font-body" x-text="link.description"></p>
+                                    </a>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </section>
+
     <!-- Centered Logo at the Bottom -->
     <footer class="flex justify-center items-center py-8 md:py-12">
         <img src="assets/logo.svg" alt="Open Libra Logo" class="w-24 h-24 md:w-32 md:h-32">
