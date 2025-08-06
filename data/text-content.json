@@ -89,8 +89,8 @@
     "description": "We play a long and open game. Which means reacting and growing stronger though consensus. We document everything, and share it all publicly."
   },
   "example": {
-    "title": "AI for Health Sciences Fund",
-    "description": "A platform for launching and funding decentralized AI research initiatives in health sciences, with global matching and dual-governance disbursements.",
+    "title": "Get Started",
+    "description": "Here's an example of a sub-DAO that could be launched on the Open Libra platform.",
     "sections": [
       {
         "id": "matching_funds",
@@ -104,7 +104,7 @@
       },
       {
         "id": "dual_governance",
-        "title": "Disbursements Controlled by Global + Donors",
+        "title": "Disbursements Controlled by Global and Donor policy",
         "body": "Funding proposals (e.g., 'Train AI models on open genomics datasets') are submitted. Disbursements are approved by both global governance (DAO token holders) and direct contributors (donors to that sub-DAO), ensuring funds are spent on high-impact, aligned projects."
       }
     ],
