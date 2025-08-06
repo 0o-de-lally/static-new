@@ -29,7 +29,7 @@
     <nav class="p-4 border-b border-opacity-20 border-brand-cream">
         <div class="container mx-auto flex justify-between items-center">
             <a href="#" class="text-xl md:text-2xl font-semibold tracking-wide font-display">open libra</a>
-            
+
             <!-- Mobile menu button -->
             <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden p-2 focus:outline-none">
                 <svg x-show="!mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -47,7 +47,7 @@
                 </template>
             </div>
         </div>
-        
+
         <!-- Mobile navigation menu -->
         <div x-show="mobileMenuOpen" x-transition class="md:hidden mt-4 pb-4">
             <div class="flex flex-col space-y-4">
@@ -131,6 +131,31 @@
                         </template>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Example Section - AI for Health Sciences Fund -->
+    <section id="example" class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-8 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display" x-text="data.example.title"></h2>
+                <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl mx-auto font-body" x-text="data.example.description"></p>
+            </div>
+
+            <!-- Example Sections Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-1 gap-8 md:gap-12 mb-8 md:mb-16">
+                <template x-for="section in data.example.sections" :key="section.id">
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-6 md:p-8">
+                        <h3 class="text-xl md:text-2xl font-semibold font-display mb-4" x-text="section.title"></h3>
+                        <p class="font-body font-light leading-relaxed text-sm md:text-base" x-text="section.body"></p>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Summary -->
+            <div class="text-center bg-opacity-10 bg-brand-cream rounded-lg p-6 md:p-8">
+                <p class="text-lg md:text-xl font-light leading-relaxed font-body" x-text="data.example.summary"></p>
             </div>
         </div>
     </section>

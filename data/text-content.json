@@ -2,6 +2,7 @@
   "navigation": [
     { "label": "About", "href": "#about" },
     { "label": "Strategy", "href": "#strategy" },
+    { "label": "Example", "href": "#example" },
     { "label": "Governance", "href": "#governance" },
     { "label": "Documentation", "href": "#documentation" },
     { "label": "Contact", "href": "#contact" }
@@ -68,6 +69,28 @@
   "documentation": {
     "title": " A proud history of transparency",
     "description": "We play a long and open game. Which means reacting and growing stronger though consensus. We document everything, and share it all publicly."
+  },
+  "example": {
+    "title": "AI for Health Sciences Fund",
+    "description": "A platform for launching and funding decentralized AI research initiatives in health sciences, with global matching and dual-governance disbursements.",
+    "sections": [
+      {
+        "id": "matching_funds",
+        "title": "Matching Funds for Sub-DAOs",
+        "body": "A research group creates an AI Drug Discovery Sub-DAO. Your platform provides matching funds to incentivize early donors. The more support the sub-DAO gets, the more global matching it receives."
+      },
+      {
+        "id": "open_creation",
+        "title": "Open Creation & Community Wallets",
+        "body": "Any team can launch a new health-focused AI Sub-DAO (e.g., rare disease diagnostics, medical imaging models). Each has its own Community Wallet where backers can contribute. Builders, researchers, and donors collaborate in a transparent, decentralized way."
+      },
+      {
+        "id": "dual_governance",
+        "title": "Disbursements Controlled by Global + Donors",
+        "body": "Funding proposals (e.g., 'Train AI models on open genomics datasets') are submitted. Disbursements are approved by both global governance (DAO token holders) and direct contributors (donors to that sub-DAO), ensuring funds are spent on high-impact, aligned projects."
+      }
+    ],
+    "summary": "We match funds and enable open creation of AI-focused health science funds, where spending decisions are governed by both global and local stakeholders."
   },
   "cta": {
     "title": "Pro-social by constitution",
