@@ -1,0 +1,12 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hero: Independent Capital for the Age of AI - 3 organic overlapping shapes -->
+  
+  <!-- Shape 1: Wonky circle representing independence/completeness -->
+  <path d="M 130 150 Q 140 80 200 85 Q 270 90 275 150 Q 270 210 200 215 Q 130 210 130 150 Z" fill="#FAF3E7" opacity="0.3"/>
+  
+  <!-- Shape 2: Irregular triangle pointing upward representing growth/AI advancement -->
+  <path d="M 125 215 Q 130 220 135 218 L 195 88 Q 200 80 205 88 L 275 218 Q 280 220 275 225 Q 200 230 125 215 Z" fill="#FAF3E7" opacity="0.5"/>
+  
+  <!-- Shape 3: Wobbly rectangle representing institutional stability -->
+  <path d="M 155 105 Q 160 100 240 105 Q 245 110 250 180 Q 245 185 160 180 Q 155 175 155 105 Z" fill="#FAF3E7" opacity="0.4"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Foundation: Three Pillars - 3 organic overlapping shapes -->
+  
+  <!-- Shape 1: Wonky tall rectangle representing first pillar -->
+  <path d="M 85 65 Q 90 60 125 65 Q 130 70 125 235 Q 120 240 85 235 Q 80 230 85 65 Z" fill="#FAF3E7" opacity="0.4"/>
+  
+  <!-- Shape 2: Irregular circle connecting/bridging elements -->
+  <path d="M 135 150 Q 140 90 200 95 Q 265 100 270 150 Q 265 200 200 205 Q 135 210 135 150 Z" fill="#FAF3E7" opacity="0.3"/>
+  
+  <!-- Shape 3: Wavy tall rectangle representing second pillar -->
+  <path d="M 275 65 Q 280 60 315 65 Q 320 70 315 235 Q 310 240 275 235 Q 270 230 275 65 Z" fill="#FAF3E7" opacity="0.4"/>
+</svg>

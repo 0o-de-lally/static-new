@@ -1,0 +1,12 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- CTA: Building Evergreen Legacy - 3 organic overlapping shapes -->
+  
+  <!-- Shape 1: Large irregular circle representing enduring legacy -->
+  <path d="M 115 150 Q 120 70 200 75 Q 285 80 290 150 Q 285 220 200 225 Q 115 230 115 150 Z" fill="#FAF3E7" opacity="0.3"/>
+  
+  <!-- Shape 2: Wonky upward triangle representing growth -->
+  <path d="M 155 195 Q 160 200 165 198 L 195 105 Q 200 100 205 105 L 245 198 Q 250 200 245 205 Q 200 210 155 195 Z" fill="#FAF3E7" opacity="0.4"/>
+  
+  <!-- Shape 3: Wavy rectangle representing solid foundation -->
+  <path d="M 125 185 Q 130 180 270 185 Q 275 190 270 235 Q 265 240 130 235 Q 125 230 125 185 Z" fill="#FAF3E7" opacity="0.5"/>
+</svg>

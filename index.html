@@ -59,10 +59,23 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="container mx-auto px-4 py-12 md:py-24">
-        <div class="max-w-5xl mx-auto">
-            <h1 class="text-4xl md:text-7xl font-bold mb-6 tracking-wide leading-tight font-display" x-text="data.hero.title"></h1>
-            <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl tracking-normal leading-relaxed font-body mb-8 md:mb-12" x-text="data.hero.subtitle"></p>
+    <section class="container mx-auto px-4 py-12 md:py-24 relative">
+        <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
+            <img src="assets/illustrations/hero-future-secured.svg" alt="Future Secured Illustration" class="w-[600px] h-[450px] md:w-[800px] md:h-[600px] opacity-20">
+        </div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-7xl font-bold mb-6 tracking-wide leading-tight font-display" x-text="data.hero.title"></h1>
+                    <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl tracking-normal leading-relaxed font-body mb-8 md:mb-12" x-text="data.hero.subtitle"></p>
+                </div>
+                <div></div>
+            </div>
+            <div class="flex flex-col gap-4 items-stretch md:items-start md:flex-row mt-8 md:mt-12">
+                <template x-for="button in data.cta.buttons" :key="button.label">
+                    <a :href="button.href" class="inline-block px-8 md:px-10 py-3 border border-brand-cream rounded-full text-base md:text-lg font-light tracking-wide font-body hover:bg-brand-cream hover:text-brand-red transition-colors duration-300 text-center" x-text="button.label"></a>
+                </template>
+            </div>
             <div class="flex flex-col gap-4 items-stretch md:items-start md:flex-row">
                 <template x-for="button in data.cta.buttons" :key="button.label">
                     <a :href="button.href" class="inline-block px-8 md:px-10 py-3 border border-brand-cream rounded-full text-base md:text-lg font-light tracking-wide font-body hover:bg-brand-cream hover:text-brand-red transition-colors duration-300 text-center" x-text="button.label"></a>
@@ -72,17 +85,23 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
-        <div class="max-w-5xl mx-auto">
+    <section id="about" class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream relative">
+        <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
+            <img src="assets/illustrations/about-institutional-intelligence.svg" alt="Institutional Intelligence Illustration" class="w-[600px] h-[450px] md:w-[800px] md:h-[600px] opacity-15">
+        </div>
+        <div class="max-w-5xl mx-auto relative z-10">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
                 <div>
                     <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display" x-text="data.about.title"></h2>
                     <p class="text-base md:text-lg font-light leading-relaxed font-body mb-6" x-text="data.about.description"></p>
                     <p class="text-base md:text-lg font-light leading-relaxed font-body opacity-90" x-text="data.about.mission"></p>
                 </div>
-                <div class="space-y-6 md:space-y-8">
+                <div></div>
+            </div>
+            <div class="mt-12 md:mt-16">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                     <template x-for="highlight in data.aboutHighlights" :key="highlight.title">
-                        <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6">
+                        <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6 bg-brand-red bg-opacity-20">
                             <h3 class="text-lg md:text-xl font-semibold font-display mb-3" x-text="highlight.title"></h3>
                             <p class="font-body font-light text-sm md:text-base" x-text="highlight.description"></p>
                         </div>
@@ -93,9 +112,12 @@
     </section>
 
     <!-- Brand Pillars Section -->
-    <section class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
-        <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8 md:mb-16 font-display">Our Foundation</h2>
+    <section class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream relative">
+        <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
+            <img src="assets/illustrations/foundation-pillars.svg" alt="Foundation Pillars Illustration" class="w-[600px] h-[450px] md:w-[800px] md:h-[600px] opacity-15">
+        </div>
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 md:mb-12 font-display">Our Foundation</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
                 <template x-for="pillar in data.foundation" :key="pillar.title">
                     <div class="text-center">
@@ -108,9 +130,12 @@
     </section>
 
     <!-- Strategy Section -->
-    <section id="strategy" class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
-        <div class="max-w-5xl mx-auto">
-            <div class="text-center mb-8 md:mb-16">
+    <section id="strategy" class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream relative">
+        <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
+            <img src="assets/illustrations/strategy-ai-plus.svg" alt="AI Plus Strategy Illustration" class="w-[600px] h-[450px] md:w-[800px] md:h-[600px] opacity-15">
+        </div>
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="text-center mb-8 md:mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display" x-text="data.strategy.title"></h2>
                 <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl mx-auto font-body" x-text="data.strategy.description"></p>
             </div>
@@ -136,10 +161,13 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
-        <div class="max-w-3xl mx-auto text-center">
+    <section class="container mx-auto px-4 py-12 md:py-24 border-t border-opacity-20 border-brand-cream relative">
+        <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
+            <img src="assets/illustrations/cta-evergreen-legacy.svg" alt="Evergreen Legacy Illustration" class="w-[600px] h-[450px] md:w-[800px] md:h-[600px] opacity-15">
+        </div>
+        <div class="max-w-3xl mx-auto text-center relative z-10">
             <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display" x-text="data.cta.title"></h2>
-            <p class="text-lg md:text-xl font-light opacity-90 mb-8 md:mb-12 font-body" x-text="data.cta.description"></p>
+            <p class="text-lg md:text-xl font-light opacity-90 mb-8 font-body" x-text="data.cta.description"></p>
             <div class="flex flex-col gap-4 justify-center md:flex-row">
                 <template x-for="button in data.cta.buttons" :key="button.label">
                     <a :href="button.href" class="inline-block px-8 md:px-10 py-3 bg-brand-cream text-brand-red rounded-full text-base md:text-lg font-light tracking-wide font-body hover:opacity-90 transition-opacity duration-300 text-center" x-text="button.label"></a>

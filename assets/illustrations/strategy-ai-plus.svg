@@ -1,0 +1,12 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Strategy: AI Plus Human Intelligence - 3 organic overlapping shapes -->
+  
+  <!-- Shape 1: Irregular triangle representing AI advancement -->
+  <path d="M 105 195 Q 110 200 115 198 L 195 85 Q 200 80 205 85 L 295 198 Q 300 200 295 205 Q 200 210 105 195 Z" fill="#FAF3E7" opacity="0.3"/>
+  
+  <!-- Shape 2: Wobbly circle representing human intelligence -->
+  <path d="M 140 180 Q 145 125 200 130 Q 260 135 265 180 Q 260 225 200 230 Q 140 235 140 180 Z" fill="#FAF3E7" opacity="0.4"/>
+  
+  <!-- Shape 3: Bumpy hexagon representing synthesis/integration -->
+  <path d="M 200 125 Q 205 120 228 138 Q 232 143 225 168 Q 220 173 200 175 Q 180 173 175 168 Q 168 143 172 138 Q 195 120 200 125 Z" fill="#FAF3E7" opacity="0.5"/>
+</svg>
