@@ -64,11 +64,18 @@
             </button>
 
             <!-- Desktop navigation -->
-            <div class="hidden md:flex space-x-8 text-sm font-light tracking-wide font-body">
+            <div class="hidden md:flex items-center space-x-8 text-sm font-light tracking-wide font-body">
                 <template x-for="item in data.navigation" :key="item.label">
                     <a :href="item.href" class="hover:opacity-80" x-text="item.label"></a>
                 </template>
                 <a href="faq.html" class="hover:opacity-80">FAQ</a>
+                <div class="flex space-x-4 items-center">
+                    <template x-for="social in data.socialLinks" :key="social.name">
+                        <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                            <img :src="social.icon" :alt="social.name" class="w-5 h-5 fill-current">
+                        </a>
+                    </template>
+                </div>
             </div>
         </div>
 
@@ -79,6 +86,13 @@
                     <a :href="item.href" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" x-text="item.label" @click="mobileMenuOpen = false"></a>
                 </template>
                 <a href="faq.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">FAQ</a>
+                <div class="flex space-x-6 items-center pt-4 border-t border-opacity-20 border-brand-cream">
+                    <template x-for="social in data.socialLinks" :key="social.name">
+                        <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                            <img :src="social.icon" :alt="social.name" class="w-6 h-6 fill-current">
+                        </a>
+                    </template>
+                </div>
             </div>
         </div>
     </nav>
@@ -235,8 +249,19 @@
     </section>
 
     <!-- Centered Logo at the Bottom -->
-    <footer class="bg-brand-charcoal flex justify-center items-center py-8 md:py-12">
-        <img src="assets/logo.svg" alt="Open Libra Logo" class="w-24 h-24 md:w-32 md:h-32">
+    <footer class="bg-brand-charcoal py-8 md:py-12">
+        <div class="container mx-auto px-4 text-center">
+            <a href="index.html" class="inline-block mb-6">
+                <img src="assets/logo.svg" alt="Open Libra Logo" class="w-24 h-24 md:w-32 md:h-32 mx-auto">
+            </a>
+            <div class="flex justify-center space-x-6">
+                <template x-for="social in data.socialLinks" :key="social.name">
+                    <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                        <img :src="social.icon" :alt="social.name" class="w-6 h-6 fill-current">
+                    </a>
+                </template>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

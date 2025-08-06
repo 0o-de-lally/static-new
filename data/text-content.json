@@ -159,5 +159,22 @@
         ]
       }
     ]
-  }
+  },
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/0LNetworkCommunity",
+      "icon": "https://cdn.simpleicons.org/github/FAF3E7"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com/0LNetwork",
+      "icon": "https://cdn.simpleicons.org/x/FAF3E7"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com/servers/0l-contributors-833074824447655976",
+      "icon": "https://cdn.simpleicons.org/discord/FAF3E7"
+    }
+  ]
 }
