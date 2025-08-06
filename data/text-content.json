@@ -17,6 +17,10 @@
       "href": "#links"
     },
     {
+      "label": "Explorer",
+      "href": "https://scan.openlibra.io/"
+    },
+    {
       "label": "Governance",
       "href": "#governance"
     },
@@ -143,7 +147,7 @@
         "title": "Learn More",
         "links": [
           { "label": "Documentation", "href": "https://docs.openlibra.io/", "description": "Complete technical documentation" },
-          { "label": "Manifesto", "href": "./data/manifesto.txt", "description": "Our vision and principles" },
+          { "label": "The Core Pledge", "href": "./data/manifesto.txt", "description": "Our vision and principles" },
           { "label": "Libra Liberated", "href": "https://docs.openlibra.io/blog/libra-liberated", "description": "The story behind the fork" }
         ]
       },
