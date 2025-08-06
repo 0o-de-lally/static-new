@@ -70,6 +70,11 @@ Our color palette is designed to be bold and highly readable, while maintaining 
         * Usage: Text color, button borders
         * Properties: Warm, soft, highly readable on red background
 
+    * **Brand Charcoal**
+        * HEX: `#4A3B3C`
+        * Usage: Dark section backgrounds, contrast areas
+        * Properties: Lighter sophisticated gray with warm red undertones
+
 * ### Opacity Variations
     * Border colors: 20% opacity of Brand Cream
     * Hover states: 80% opacity for interactive elements
