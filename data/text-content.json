@@ -7,13 +7,13 @@
     { "label": "Contact", "href": "#contact" }
   ],
   "hero": {
-    "title": "Independent Capital for the Age of AI",
-    "subtitle": "The eternal investment DAO engineered with plans measured in centuries."
+    "title": "Independent Capital for the Age of Acceleration",
+    "subtitle": "The investment DAO engineered for centuries."
   },
   "about": {
     "title": "Institutional Intelligence, Protocol-Enforced",
     "description": "Open Libra is a sovereign, on-chain investment endowment designed to survive and thrive across centuries. We combine AI-driven strategy with cryptographically enforced governance to deliver transparent, trustworthy capital allocation in a rapidly evolving world.",
-    "mission": "Our DAO offers a unique institutional vehicle that aligns cutting-edge AI investment with immutable, programmable covenants — ensuring a resilient, purpose-driven legacy beyond traditional finance."
+    "mission": "Blockhains as institutional vehicle: aligns rapid investment with immutable, programmable covenants — ensuring a resilient, purpose-driven legacy beyond traditional finance."
   },
   "aboutHighlights": [
     {
@@ -21,12 +21,12 @@
       "description": "Designed for perpetual existence, Open Libra's structure enables capital and mission to compound uninterrupted over 100+ years."
     },
     {
-      "title": "AtI-Native Investment & Governance",
+      "title": "AI-Native",
       "description": "Our operations are agent-native. Engineering, communication, and governance are all optimized for AI augmentation. To understand AI, you must live in AI."
     },
     {
-      "title": "Cryptographically Enforced Compliance",
-      "description": "Smart contracts autonomously enforce investment mandates and regulatory constraints, delivering unparalleled transparency and trust."
+      "title": "The endgame of institutional capital",
+      "description": "A fund with a 100+ year mandate requires an execution layer immune to jurisdictional drift, key-man risk, and institutional fragility — only a dedicated blockchain can provide that level of neutrality and permanence. The fund's logic, governance, and covenants must be enforced autonomously over generations, which is only possible through on-chain programmability. A native digital asset ensures alignment, liquidity, and permissionless participation, enabling the fund to operate as a sovereign financial system rather than a revocable legal entity."
     }
   ],
   "foundation": [
