@@ -7,63 +7,71 @@
     { "label": "Contact", "href": "#contact" }
   ],
   "hero": {
-    "title": "The Future, Secured",
-    "subtitle": "An institutional investment DAO leveraging AI-driven strategies to build an evergreen legacy in the decentralized world"
+    "title": "Independent Capital for the Age of AI",
+    "subtitle": "The eternal investment DAO engineered with plans measured in centuries."
   },
   "about": {
-    "title": "Institutional Intelligence On-Chain",
-    "description": "Open Libra is a critical long-running endowment designed to help humanity hedge its bets on a future dominated by artificial intelligence. We secure dignity for our members while investing in acceleration of dignity for the public good.",
-    "mission": "Our on-chain Investment DAO serves as an institutional vehicle built to address the most urgent needs of a rapidly changing world, ensuring a resilient and purpose-driven future."
+    "title": "Institutional Intelligence, Protocol-Enforced",
+    "description": "Open Libra is a sovereign, on-chain investment endowment designed to survive and thrive across centuries. We combine AI-driven strategy with cryptographically enforced governance to deliver transparent, trustworthy capital allocation in a rapidly evolving world.",
+    "mission": "Our DAO offers a unique institutional vehicle that aligns cutting-edge AI investment with immutable, programmable covenants — ensuring a resilient, purpose-driven legacy beyond traditional finance."
   },
   "aboutHighlights": [
     {
-      "title": "100+ Year Horizon",
-      "description": "Built for enduring impact with a permanent, legacy-focused perspective."
+      "title": "Century-Scale Time Horizon",
+      "description": "Designed for perpetual existence, Open Libra's structure enables capital and mission to compound uninterrupted over 100+ years."
     },
     {
-      "title": "AI-Driven Strategy",
-      "description": "Leveraging artificial intelligence to identify and invest in the most promising future-facing technologies."
+      "title": "AtI-Native Investment & Governance",
+      "description": "Our operations are agent-native. Engineering, communication, and governance are all optimized for AI augmentation. To understand AI, you must live in AI."
     },
     {
-      "title": "Regulatory Compliance",
-      "description": "Trustworthy and compliant framework designed for institutional investors."
+      "title": "Cryptographically Enforced Compliance",
+      "description": "Smart contracts autonomously enforce investment mandates and regulatory constraints, delivering unparalleled transparency and trust."
     }
   ],
   "foundation": [
     {
-      "title": "Trustworthy & Compliant",
-      "description": "The reliable and secure choice for institutional investors, signaling stability and steadfast commitment to regulatory compliance."
+      "title": "Unstoppable & Trustworthy",
+      "description": "Built on decentralized infrastructure, Open Libra operates beyond agency, jurisdictional, and custodial risks, providing an unforgeable record of capital. Investment DAOs are the endgame of blockchain."
     },
     {
-      "title": "Forward-Thinking & Intelligent",
-      "description": "Not just participating in the future, but building it through strategic intelligence and deep understanding of AI and decentralized technology."
+      "title": "A battle-tested open funding model",
+      "description": "Capital is allocated through specialized sub-DAOs, enabling parallel innovation, risk containment, and governance specialization."
     },
     {
-      "title": "Independent & Enduring",
-      "description": "Built for a 100+ year time horizon with strength, self-governance, and a permanent legacy-focused perspective."
+      "title": "Main street common sense",
+      "description": "Blockchain is not magical, it's table-stakes for independent capital. Capital must compound with rigor, transparency, and alignment to endure."
     }
   ],
   "strategy": {
-    "title": "AI Plus Strategy",
-    "description": "Our investment approach combines artificial intelligence with strategic human oversight to identify and capitalize on emerging opportunities in the decentralized ecosystem.",
+    "title": "AI++ Strategy",
+    "description": "Any institution looking over the horizon has only one mission: timing when AI disrupts each market. ",
     "focus": [
-      "Future-facing technologies with long-term potential",
-      "AI and machine learning infrastructure",
-      "Decentralized finance protocols and platforms",
-      "Digital assets with institutional adoption",
-      "Technologies that accelerate human dignity"
+      "Long-term, future-facing technologies shaping AI and machine intelligence",
+      "Decentralized finance protocols with proven adoption",
+      "Digital assets meeting institutional standards",
+      "Infrastructure enabling AI and machine learning scalability",
+      "Technologies that enhance human dignity and sovereignty"
     ],
     "riskManagement": [
-      "Diversified portfolio across sectors and geographies",
-      "AI-powered risk assessment and monitoring",
-      "Regulatory compliance at every level",
-      "Long-term value preservation strategies",
-      "Transparent governance and reporting"
+      "Diversification across sectors, geographies, and protocol layers",
+      "Continuous AI-powered risk monitoring and scenario analysis",
+      "Programmatic enforcement of regulatory and mandate constraints",
+      "Mechanisms for long-term capital preservation and mission alignment",
+      "Transparent, on-chain reporting and governance"
     ]
   },
+  "governance": {
+    "title": "Governance in service of perpetuity",
+    "description": "Open Libra employs a layered governance model combining decentralized sub-DAOs, AI-assisted decision support, and immutable on-chain voting to ensure durability, adaptability, and stakeholder alignment over generations."
+  },
+  "documentation": {
+    "title": " A proud history of transparency",
+    "description": "We play a long and open game. Which means reacting and growing stronger though consensus. We document everything, and share it all publicly."
+  },
   "cta": {
-    "title": "Building an Evergreen Legacy",
-    "description": "Join us in pioneering a new paradigm of AI-driven investment that secures the future while preserving human dignity.",
+    "title": "Pro-social by constitution",
+    "description": "The most funded endowments in OL have been created for philanthropic purposes. If we get this right, those DAOs could become among the worlds the largest public endowments.",
     "buttons": [
       { "label": "Get Started", "href": "#" },
       { "label": "Learn More", "href": "#" }
