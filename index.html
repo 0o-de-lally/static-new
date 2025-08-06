@@ -68,6 +68,7 @@
                 <template x-for="item in data.navigation" :key="item.label">
                     <a :href="item.href" class="hover:opacity-80" x-text="item.label"></a>
                 </template>
+                <a href="pledge-explained.html" class="hover:opacity-80">The Core Pledge</a>
             </div>
         </div>
 
@@ -77,6 +78,7 @@
                 <template x-for="item in data.navigation" :key="item.label">
                     <a :href="item.href" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" x-text="item.label" @click="mobileMenuOpen = false"></a>
                 </template>
+                <a href="pledge-explained.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">The Core Pledge</a>
             </div>
         </div>
     </nav>
@@ -90,6 +92,7 @@
                 <template x-for="button in data.cta.buttons" :key="button.label">
                     <a :href="button.href" class="inline-block px-8 md:px-10 py-3 border border-brand-cream rounded-full text-base md:text-lg font-light tracking-wide font-body hover:bg-brand-cream hover:text-brand-red transition-colors duration-300 text-center" x-text="button.label"></a>
                 </template>
+                <a href="pledge-explained.html" class="inline-block px-8 md:px-10 py-3 bg-brand-cream text-brand-red rounded-full text-base md:text-lg font-light tracking-wide font-body hover:opacity-90 transition-opacity duration-300 text-center">The Core Pledge</a>
             </div>
         </div>
     </section>
