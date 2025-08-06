@@ -23,8 +23,25 @@
         }
     </script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        .fade-in.show {
+            opacity: 1;
+        }
+    </style>
 </head>
-<body class="min-h-screen bg-brand-red text-brand-cream flex flex-col justify-between" x-data="{ data: {}, mobileMenuOpen: false }" x-init="fetch('data/text-content.json').then(response => response.json()).then(json => data = json)">
+<body class="min-h-screen bg-brand-red text-brand-cream flex flex-col justify-between fade-in"
+      x-data="{ data: {}, mobileMenuOpen: false, loaded: false }"
+      x-init="fetch('data/text-content.json').then(response => response.json()).then(json => { data = json; loaded = true; $nextTick(() => $el.classList.add('show')); })"
+      x-cloak>
     <!-- Navigation -->
     <nav class="p-4 border-b border-opacity-20 border-brand-cream">
         <div class="container mx-auto flex justify-between items-center">
