@@ -1,20 +1,38 @@
 {
   "navigation": [
-    { "label": "About", "href": "#about" },
-    { "label": "Strategy", "href": "#strategy" },
-    { "label": "Example", "href": "#example" },
-    { "label": "Governance", "href": "#governance" },
-    { "label": "Documentation", "href": "#documentation" },
-    { "label": "Contact", "href": "#contact" }
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Strategy",
+      "href": "#strategy"
+    },
+    {
+      "label": "Example",
+      "href": "#example"
+    },
+    {
+      "label": "Governance",
+      "href": "#governance"
+    },
+    {
+      "label": "Documentation",
+      "href": "#documentation"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
   ],
   "hero": {
     "title": "Independent Capital for the Age of Acceleration",
     "subtitle": "The investment DAO engineered for centuries."
   },
   "about": {
-    "title": "Institutional Intelligence, Protocol-Enforced",
-    "description": "Open Libra is a sovereign, on-chain investment endowment designed to survive and thrive across centuries. We combine AI-driven strategy with cryptographically enforced governance to deliver transparent, trustworthy capital allocation in a rapidly evolving world.",
-    "mission": "Blockhains as institutional vehicle: aligns rapid investment with immutable, programmable covenants — ensuring a resilient, purpose-driven legacy beyond typical timelines."
+    "title": "AI++ Strategy",
+    "description": "Any institution looking over the horizon has only one mission: timing when AI disrupts each market.",
+    "mission": "Open Libra is a sovereign, on-chain investment endowment designed to survive and thrive across centuries. "
   },
   "aboutHighlights": [
     {
@@ -45,8 +63,8 @@
     }
   ],
   "strategy": {
-    "title": "AI++ Strategy",
-    "description": "Any institution looking over the horizon has only one mission: timing when AI disrupts each market. ",
+    "title": "Blockchain as institutional vehicle",
+    "description": "aligns rapid investment with immutable, programmable covenants — ensuring a resilient, purpose-driven legacy beyond typical timelines.",
     "focus": [
       "Long-term, future-facing technologies shaping AI and machine intelligence",
       "Decentralized finance protocols with proven adoption",
@@ -96,8 +114,14 @@
     "title": "Pro-social by constitution",
     "description": "The most funded endowments in OL have been created for philanthropic purposes. If we get this right, those DAOs could become among the worlds the largest public endowments.",
     "buttons": [
-      { "label": "Get Started", "href": "#" },
-      { "label": "Learn More", "href": "#" }
+      {
+        "label": "Get Started",
+        "href": "#"
+      },
+      {
+        "label": "Learn More",
+        "href": "#"
+      }
     ]
   }
 }
