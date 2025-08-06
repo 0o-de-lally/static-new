@@ -58,7 +58,7 @@
         });
       "
       x-cloak>
-    
+
     <!-- Navigation -->
     <nav class="p-4 border-b border-opacity-20 border-brand-cream">
         <div class="container mx-auto flex justify-between items-center">
@@ -112,10 +112,10 @@
         <section class="py-12 md:py-16 border-t border-opacity-20 border-brand-cream bg-brand-charcoal">
             <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto space-y-6">
-                    
+
                     <template x-for="(question, index) in faqData.faq?.questions || []" :key="question.id">
                         <div class="border border-opacity-30 border-brand-cream rounded-lg">
-                            <button @click="openFaq = openFaq === index ? null : index" 
+                            <button @click="openFaq = openFaq === index ? null : index"
                                     class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
                                 <div class="flex justify-between items-center">
                                     <h3 class="text-xl md:text-2xl font-semibold font-display pr-4" x-text="question.question"></h3>

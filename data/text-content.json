@@ -38,9 +38,9 @@
     "subtitle": "The investment DAO engineered for centuries"
   },
   "about": {
-    "title": "AI++ Strategy",
+    "title": "AI-Plus Strategy",
     "description": "Open Libra is a sovereign, on-chain investment endowment designed to survive and thrive across centuries.",
-    "mission": "We didn't arrive at this thesis casually. Today, all long term institutions have one thing to get right: timing when AI disrupts every market."
+    "mission": "Our thesis is built on a foundational premise: all long-term institutions must correctly navigate the disruption AI will bring to every market."
   },
   "aboutHighlights": [
     {
@@ -48,8 +48,8 @@
       "description": "Designed for perpetual existence, Open Libra's structure enables capital and mission to compound uninterrupted over 100+ years."
     },
     {
-      "title": "AI-Native",
-      "description": "Our operations are agent-native. Engineering, communication, and governance are all optimized for AI augmentation. To understand AI, you must live in AI."
+      "title": "AI-Integrated Operations",
+      "description": "Our operations, from engineering to governance, are augmented by AI. We believe that to effectively invest in AI, an institution must be fluent in its application."
     },
     {
       "title": "The endgame of institutional capital",
@@ -97,7 +97,7 @@
     "description": "We play a long and open game. Which means reacting and growing stronger though consensus. We document everything, and share it all publicly."
   },
   "example": {
-    "title": "Get Started",
+    "title": "Example: A Sub-DAO in Action",
     "description": "Here's an example of a sub-DAO that could be launched on the Open Libra platform.",
     "sections": [
       {
@@ -116,19 +116,19 @@
         "body": "Funding proposals (e.g., 'Train AI models on open genomics datasets') are submitted. Disbursements are approved by both global governance (DAO token holders) and direct contributors (donors to that sub-DAO), ensuring funds are spent on high-impact, aligned projects."
       }
     ],
-    "summary": "We match funds and enable open creation of AI-focused health science funds, where spending decisions are governed by both global and local stakeholders."
+    "summary": "This model enables the open creation of specialized investment funds, where spending decisions are governed by both global and local stakeholders, ensuring alignment and impact."
   },
   "cta": {
     "title": "Pro-social by constitution",
-    "description": "The most funded endowments in OL have been created for philanthropic purposes. If we get this right, those DAOs could become among the worlds the largest public endowments.",
+    "description": "The most funded endowments in Open Libra have been created for philanthropic purposes. Our goal is to enable these DAOs to become among the world's largest public endowments.",
     "buttons": [
       {
-        "label": "Get Started",
-        "href": "#"
+        "label": "View Governance",
+        "href": "#governance"
       },
       {
-        "label": "Learn More",
-        "href": "#"
+        "label": "Read Documentation",
+        "href": "#documentation"
       }
     ]
   },
