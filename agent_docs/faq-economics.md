@@ -10,7 +10,7 @@ Matching is based on time-weighted donations. Newer donations carry more weight.
 
 **What stops someone from hijacking a Sub-DAO?**
 
-A Sub-DAO can't be run by one actor. Three independent signers are required, and fund disbursements require both donor and global approval. Donors retain veto rights.
+A Sub-DAO can't be run by one actor. Three independent signers are required, and fund disbursements require both donor and global approval. Additionally donors retain veto rights, and ultimately can vote to liquidate the DAO.
 
 **How do you bootstrap liquidity and incentives without moral hazard or ponzinomics?**
 
