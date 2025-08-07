@@ -57,6 +57,11 @@
         "id": "sub_dao_assets",
         "question": "What assets do Sub-DAO community wallets invest in?",
         "answer": "Sub-DAO community wallets operate as 'all-weather' perpetual endowments, designed to steward capital across centuries. Each Sub-DAO independently determines its strategy, balancing treasuries, public equities, private equities, private credit, and derivatives. This approach ensures resilience through economic cycles and technological shifts, including the anticipated impact of AGI. Unlike typical blockchain foundations that focus narrowly on in-house ventures for niche technologies, Open Libra encourages Sub-DAOs to seek the best global opportunities within their mandate. This diversification maximizes returns while aligning with the mission of creating durable, independent capital that transcends regimes, cycles, and lifespans."
+      },
+      {
+        "id": "bots_exploits_policy",
+        "question": "What's your policy on bots and exploits?",
+        "answer": "Open games are hard. There will be exploits, deception, and automated attacks. We experience these regularly as part of any open system. We use in-house fraud detection tools: Scorpion's Claw, for a zero tolerance approach. If you steal from the commons you should expect a steady escalation from social sanctions, code, hard forks, and lawsuits. Read more in 'Code is Legislation'"
       }
     ]
   }

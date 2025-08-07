@@ -48,26 +48,26 @@
       "description": "Designed for perpetual existence, Open Libra's structure enables capital and mission to compound uninterrupted over 100+ years."
     },
     {
-      "title": "AI-Integrated Operations",
-      "description": "Our operations, from engineering to governance, are augmented by AI. We believe that to effectively invest in AI, an institution must be fluent in its application."
+      "title": "All Weather, All Opportunity",
+      "description": "Every asset class is under consideration. Having a broad portfolio mandate or a narrow AI mandate are equivalent, since AI will disrupt everything."
     },
     {
-      "title": "The endgame of institutional capital",
+      "title": "The Rails of Perpetual Capital",
       "description": "A fund with a 100+ year mandate requires an execution layer immune to jurisdictional drift, key-man risk, and institutional fragility — only a dedicated blockchain can provide that level of neutrality and permanence."
     }
   ],
   "foundation": [
     {
-      "title": "Unstoppable & Trustworthy",
-      "description": "Built on decentralized infrastructure, Open Libra operates beyond agency, jurisdictional, and custodial risks, providing an unforgeable record of capital. Investment DAOs are the endgame of blockchain."
+      "title": "Main street common sense",
+      "description": "Blockchain is not magical, it's table-stakes for independent capital. Capital must compound with rigor, transparency, and alignment to endure."
+    },
+    {
+      "title": "Independent & Unstoppable",
+      "description": "Blockchain Built on decentralized infrastructure, Open Libra operates beyond agency, jurisdictional, and custodial risks, providing an unforgeable record of capital. Investment DAOs are the endgame of blockchain."
     },
     {
       "title": "A battle-tested open funding model",
       "description": "Capital is allocated through specialized sub-DAOs, enabling parallel innovation, risk containment, and governance specialization."
-    },
-    {
-      "title": "Main street common sense",
-      "description": "Blockchain is not magical, it's table-stakes for independent capital. Capital must compound with rigor, transparency, and alignment to endure."
     }
   ],
   "strategy": {
@@ -93,7 +93,7 @@
     "description": "Open Libra employs a layered governance model combining decentralized sub-DAOs, AI-assisted decision support, and immutable on-chain voting to ensure durability, adaptability, and stakeholder alignment over generations."
   },
   "documentation": {
-    "title": " A proud history of transparency",
+    "title": "A proud history of transparency",
     "description": "We play a long and open game. Which means reacting and growing stronger though consensus. We document everything, and share it all publicly."
   },
   "example": {
@@ -139,23 +139,51 @@
       {
         "title": "Get Started",
         "links": [
-          { "label": "Wallet", "href": "https://github.com/0LNetworkCommunity/carpe", "description": "Download the Open Libra wallet" },
-          { "label": "Block Explorer", "href": "https://scan.openlibra.io/", "description": "Explore the blockchain" }
+          {
+            "label": "Wallet",
+            "href": "https://github.com/0LNetworkCommunity/carpe",
+            "description": "Download the Open Libra wallet"
+          },
+          {
+            "label": "Block Explorer",
+            "href": "https://scan.openlibra.io/",
+            "description": "Explore the blockchain"
+          }
         ]
       },
       {
         "title": "Learn More",
         "links": [
-          { "label": "Documentation", "href": "https://docs.openlibra.io/", "description": "Complete technical documentation" },
-          { "label": "The Core Pledge", "href": "./data/manifesto.txt", "description": "Our vision and principles" },
-          { "label": "Libra Liberated", "href": "https://docs.openlibra.io/blog/libra-liberated", "description": "The story behind the fork" }
+          {
+            "label": "Documentation",
+            "href": "https://docs.openlibra.io/",
+            "description": "Complete technical documentation"
+          },
+          {
+            "label": "The Core Pledge",
+            "href": "./data/manifesto.txt",
+            "description": "Our vision and principles"
+          },
+          {
+            "label": "Libra Liberated",
+            "href": "https://docs.openlibra.io/blog/libra-liberated",
+            "description": "The story behind the fork"
+          }
         ]
       },
       {
         "title": "Developers",
         "links": [
-          { "label": "Papers", "href": "https://docs.openlibra.io/blog/proof-of-fee-part-1", "description": "Research papers and technical specs" },
-          { "label": "Code", "href": "https://github.com/0LNetworkCommunity/libra-framework", "description": "Open source codebase" }
+          {
+            "label": "Papers",
+            "href": "https://docs.openlibra.io/blog/proof-of-fee-part-1",
+            "description": "Research papers and technical specs"
+          },
+          {
+            "label": "Code",
+            "href": "https://github.com/0LNetworkCommunity/libra-framework",
+            "description": "Open source codebase"
+          }
         ]
       }
     ]
