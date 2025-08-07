@@ -1,4 +1,9 @@
 {
+  "siteTitle": "Open Libra - The Future, Secured",
+  "brand": {
+    "name": "open libra",
+    "logoAlt": "Open Libra Logo"
+  },
   "navigation": [
     {
       "label": "About",
@@ -40,20 +45,58 @@
       "description": "A fund with a 100+ year mandate requires an execution layer immune to jurisdictional drift, key-man risk, and institutional fragility — only a dedicated blockchain can provide that level of neutrality and permanence."
     }
   ],
-  "foundation": [
-    {
-      "title": "Main street common sense",
-      "description": "Blockchain is not magical, it's table-stakes for independent capital. Capital must compound with rigor, transparency, and alignment to endure."
-    },
-    {
-      "title": "Independent & Unstoppable",
-      "description": "Blockchain Built on decentralized infrastructure, Open Libra operates beyond agency, jurisdictional, and custodial risks, providing an unforgeable record of capital. Investment DAOs are the endgame of blockchain."
-    },
-    {
-      "title": "A battle-tested open funding model",
-      "description": "Capital is allocated through specialized sub-DAOs, enabling parallel innovation, risk containment, and governance specialization."
-    }
-  ],
+  "foundation": {
+    "title": "Our Foundation",
+    "pillars": [
+      {
+        "title": "Main street common sense",
+        "description": "Blockchain is not magical, it's table-stakes for independent capital. Capital must compound with rigor, transparency, and alignment to endure."
+      },
+      {
+        "title": "Independent & Unstoppable",
+        "description": "Blockchain Built on decentralized infrastructure, Open Libra operates beyond agency, jurisdictional, and custodial risks, providing an unforgeable record of capital. Investment DAOs are the endgame of blockchain."
+      },
+      {
+        "title": "A battle-tested open funding model",
+        "description": "Capital is allocated through specialized sub-DAOs, enabling parallel innovation, risk containment, and governance specialization."
+      }
+    ]
+  },
+  "inventions": {
+    "title": "Technical Infrastructure",
+    "subtitle": "Six protocol innovations that solve institutional capital problems",
+    "items": [
+      {
+        "title": "Open Libra Blockchain",
+        "description": "First open Move smart contract platform. Forked from Facebook's Libra/Diem with complete sovereignty and no external dependencies.",
+        "fullWidth": true
+      },
+      {
+        "title": "Donor Voice Accounts",
+        "description": "Institutional oversight without centralized control. Donors retain veto rights and liquidation authority."
+      },
+      {
+        "title": "Match Index",
+        "description": "Performance-weighted funding allocation. Sub-DAOs earn matching funds based on results, not politics."
+      },
+      {
+        "title": "Proof of Fee",
+        "description": "Cost-minimized consensus. Validators compete on operational efficiency, not computational waste."
+      },
+      {
+        "title": "Slow Wallets",
+        "description": "Mandatory vesting schedule. Early participants get better terms, speculation gets worse terms."
+      },
+      {
+        "title": "VDF Miner",
+        "description": "Time-based token distribution. No energy requirements, no capital barriers. Commitment determines allocation.",
+        "fullWidth": true
+      }
+    ]
+  },
+  "buttons": {
+    "faq": "FAQ"
+  },
   "governance": {
     "title": "Governance in service of perpetuity",
     "description": "Open Libra employs a layered governance model combining decentralized sub-DAOs, AI-assisted decision support, and immutable on-chain voting to ensure durability, adaptability, and stakeholder alignment over generations."

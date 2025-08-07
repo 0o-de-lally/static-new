@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Libra - The Future, Secured</title>
+    <title x-text="data.siteTitle"></title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -51,7 +51,7 @@
     <!-- Navigation -->
     <nav class="p-4 border-b border-opacity-20 border-brand-cream">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-xl md:text-2xl font-semibold tracking-wide font-display">open libra</a>
+            <a href="#" class="text-xl md:text-2xl font-semibold tracking-wide font-display" x-text="data.brand.name"></a>
 
             <!-- Mobile menu button -->
             <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden p-2 focus:outline-none">
@@ -68,7 +68,7 @@
                 <template x-for="item in data.navigation" :key="item.label">
                     <a :href="item.href" class="hover:opacity-80" x-text="item.label"></a>
                 </template>
-                <a href="faq.html" class="hover:opacity-80">FAQ</a>
+                <a href="faq.html" class="hover:opacity-80" x-text="data.buttons.faq"></a>
                 <div class="flex space-x-4 items-center">
                     <template x-for="social in data.socialLinks" :key="social.name">
                         <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
@@ -85,7 +85,7 @@
                 <template x-for="item in data.navigation" :key="item.label">
                     <a :href="item.href" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" x-text="item.label" @click="mobileMenuOpen = false"></a>
                 </template>
-                <a href="faq.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">FAQ</a>
+                <a href="faq.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false" x-text="data.buttons.faq"></a>
                 <div class="flex space-x-6 items-center pt-4 border-t border-opacity-20 border-brand-cream">
                     <template x-for="social in data.socialLinks" :key="social.name">
                         <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
@@ -103,7 +103,7 @@
             <h1 class="text-4xl md:text-7xl font-bold mb-6 tracking-wide leading-tight font-display" x-text="data.hero.title"></h1>
             <p class="uppercase md:text-xl font-light opacity-90 max-w-3xl tracking-normal leading-relaxed font-body mb-8 md:mb-12" x-text="data.hero.subtitle"></p>
             <div class="flex flex-col gap-4 items-stretch md:items-start md:flex-row">
-                <a href="faq.html" class="inline-block px-8 md:px-10 py-3 border border-brand-cream rounded-full text-base md:text-lg font-light tracking-wide font-body hover:bg-brand-cream hover:text-brand-red transition-colors duration-300 text-center">FAQ</a>
+                <a href="faq.html" class="inline-block px-8 md:px-10 py-3 border border-brand-cream rounded-full text-base md:text-lg font-light tracking-wide font-body hover:bg-brand-cream hover:text-brand-red transition-colors duration-300 text-center" x-text="data.buttons.faq"></a>
             </div>
         </div>
     </section>
@@ -135,9 +135,9 @@
     <section class="py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
         <div class="container mx-auto px-4">
             <div class="max-w-5xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8 md:mb-16 font-display title-uppercase">Our Foundation</h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 md:mb-16 font-display title-uppercase" x-text="data.foundation.title"></h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-                    <template x-for="pillar in data.foundation" :key="pillar.title">
+                    <template x-for="pillar in data.foundation.pillars" :key="pillar.title">
                         <div class="text-center">
                             <h3 class="text-xl md:text-2xl font-semibold font-display mb-4" x-text="pillar.title"></h3>
                             <p class="font-body font-light leading-relaxed text-sm md:text-base" x-text="pillar.description"></p>
@@ -153,34 +153,16 @@
         <div class="container mx-auto px-4">
             <div class="max-w-5xl mx-auto">
                 <div class="text-center mb-8 md:mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display title-uppercase">Blockchain as institutional vehicle</h2>
-                    <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl mx-auto font-body">Six protocol innovations that solve institutional capital problems</p>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display title-uppercase" x-text="data.inventions.title"></h2>
+                    <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl mx-auto font-body" x-text="data.inventions.subtitle"></p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6 md:col-span-2">
-                        <h3 class="text-lg md:text-xl font-semibold font-display mb-3">Open Libra Blockchain</h3>
-                        <p class="font-body font-light text-sm md:text-base">First open Move smart contract platform. Forked from Facebook's Libra/Diem with complete sovereignty and no external dependencies.</p>
-                    </div>
-                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6">
-                        <h3 class="text-lg md:text-xl font-semibold font-display mb-3">Donor Voice Accounts</h3>
-                        <p class="font-body font-light text-sm md:text-base">Institutional oversight without centralized control. Donors retain veto rights and liquidation authority.</p>
-                    </div>
-                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6">
-                        <h3 class="text-lg md:text-xl font-semibold font-display mb-3">Match Index</h3>
-                        <p class="font-body font-light text-sm md:text-base">Performance-weighted funding allocation. Sub-DAOs earn matching funds based on results, not politics.</p>
-                    </div>
-                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6">
-                        <h3 class="text-lg md:text-xl font-semibold font-display mb-3">Proof of Fee</h3>
-                        <p class="font-body font-light text-sm md:text-base">Cost-minimized consensus. Validators compete on operational efficiency, not computational waste.</p>
-                    </div>
-                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6">
-                        <h3 class="text-lg md:text-xl font-semibold font-display mb-3">Slow Wallets</h3>
-                        <p class="font-body font-light text-sm md:text-base">Mandatory vesting schedule. Early participants get better terms, speculation gets worse terms.</p>
-                    </div>
-                    <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6 md:col-span-2">
-                        <h3 class="text-lg md:text-xl font-semibold font-display mb-3">VDF Miner</h3>
-                        <p class="font-body font-light text-sm md:text-base">Time-based token distribution. No energy requirements, no capital barriers. Commitment determines allocation.</p>
-                    </div>
+                    <template x-for="item in data.inventions.items" :key="item.title">
+                        <div class="border border-opacity-30 border-brand-cream rounded-lg p-4 md:p-6" :class="item.fullWidth ? 'md:col-span-2' : ''">
+                            <h3 class="text-lg md:text-xl font-semibold font-display mb-3" x-text="item.title"></h3>
+                            <p class="font-body font-light text-sm md:text-base" x-text="item.description"></p>
+                        </div>
+                    </template>
                 </div>
             </div>
         </div>
@@ -260,7 +242,7 @@
     <footer class="bg-brand-charcoal py-8 md:py-12">
         <div class="container mx-auto px-4 text-center">
             <a href="index.html" class="inline-block mb-6">
-                <img src="assets/logo.svg" alt="Open Libra Logo" class="w-24 h-24 md:w-32 md:h-32 mx-auto">
+                <img src="assets/logo.svg" :alt="data.brand.logoAlt" class="w-24 h-24 md:w-32 md:h-32 mx-auto">
             </a>
             <div class="flex justify-center space-x-6">
                 <template x-for="social in data.socialLinks" :key="social.name">
