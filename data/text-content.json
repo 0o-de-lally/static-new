@@ -5,10 +5,6 @@
       "href": "#about"
     },
     {
-      "label": "Strategy",
-      "href": "#strategy"
-    },
-    {
       "label": "Example",
       "href": "#example"
     },
@@ -19,18 +15,6 @@
     {
       "label": "Explorer",
       "href": "https://scan.openlibra.io/"
-    },
-    {
-      "label": "Governance",
-      "href": "#governance"
-    },
-    {
-      "label": "Documentation",
-      "href": "#documentation"
-    },
-    {
-      "label": "Contact",
-      "href": "#contact"
     }
   ],
   "hero": {
@@ -70,24 +54,6 @@
       "description": "Capital is allocated through specialized sub-DAOs, enabling parallel innovation, risk containment, and governance specialization."
     }
   ],
-  "strategy": {
-    "title": "Blockchain as institutional vehicle",
-    "description": "aligns rapid investment with immutable, programmable covenants — ensuring a resilient, purpose-driven legacy beyond typical timelines.",
-    "focus": [
-      "Long-term, future-facing technologies shaping AI and machine intelligence",
-      "Decentralized finance protocols with proven adoption",
-      "Digital assets meeting institutional standards",
-      "Infrastructure enabling AI and machine learning scalability",
-      "Technologies that enhance human dignity and sovereignty"
-    ],
-    "riskManagement": [
-      "Diversification across sectors, geographies, and protocol layers",
-      "Continuous AI-powered risk monitoring and scenario analysis",
-      "Programmatic enforcement of regulatory and mandate constraints",
-      "Mechanisms for long-term capital preservation and mission alignment",
-      "Transparent, on-chain reporting and governance"
-    ]
-  },
   "governance": {
     "title": "Governance in service of perpetuity",
     "description": "Open Libra employs a layered governance model combining decentralized sub-DAOs, AI-assisted decision support, and immutable on-chain voting to ensure durability, adaptability, and stakeholder alignment over generations."
