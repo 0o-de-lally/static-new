@@ -110,3 +110,6 @@ This section outlines how our brand identity is applied across different media. 
 * **Presentations:** Use of our typography and color palette. All slides should maintain a professional and organized layout.
 * **Social Media:** Consistent logo usage, with posts focused on market insights, technological breakthroughs, and thought leadership. Avoid casual or promotional content.
 * **Documentation:** All whitepapers and reports must follow a clear and professional layout, using our brand fonts and color palette. This reinforces our image as a serious and credible institution.
+
+### **5. Ethos**
+We are inspired by the Robin Hood story. We work against the status quo of compounding power. We look for feedback loops that compound to unexpected parties.
