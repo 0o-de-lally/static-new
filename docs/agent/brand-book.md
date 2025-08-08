@@ -40,6 +40,9 @@ Our voice is **authoritative and intelligent, yet clear and accessible**. We spe
     * "Building an evergreen legacy."
     * "Pioneering a new paradigm of AI-driven investment."
 
+* **Never:**
+    * solicit investment
+    * give investment advice
 ---
 
 ### **3. Visual Identity**

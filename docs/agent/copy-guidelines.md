@@ -6,6 +6,9 @@
 - If something is a risk, name it. If something is a strength, own it.
 - Crypto is full of smoke. Open Libra isn't.
 
+## Second rule:
+- Never solicit investments
+- Never give investment advice
 ---
 
 ## 📌 Context
