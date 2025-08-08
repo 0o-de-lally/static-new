@@ -31,8 +31,7 @@ Our challenge is to **earn credibility with both.** That means: speak plainly, w
 | **Precise**   | Use exact terms, not abstractions. Define everything. |
 | **Anchored**  | New ideas must be introduced through familiar ones. |
 | **Credible**  | Preempt skepticism. Answer before they ask.         |
-| **Institutional** | Sound like a sovereign fund, not a Discord mod. |
-
+| **Institutional** | Sound like a sovereign wealth fund manager, not a Discord mod. |
 ---
 
 ## 🧠 Core Messaging Principles
@@ -64,7 +63,8 @@ Our challenge is to **earn credibility with both.** That means: speak plainly, w
 
 | Use This                  | Not This                         |
 |---------------------------|----------------------------------|
-| Sovereign protocol        | Next-gen DAO                     |
+| Independent               | Sovereign                        |
+| Open Participation        | Next-gen DAO                     |
 | Programmed capital        | Smart capital                    |
 | Immutable governance      | Radical transparency             |
 | Perpetual mandate         | Infinite vision                  |

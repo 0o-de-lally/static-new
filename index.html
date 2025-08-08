@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title x-text="data.siteTitle"></title>
+    <title>Open Libra — The Future, Secured</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -193,6 +193,27 @@
         </div>
     </section>
 
+    <!-- Learn Section: Governance + Documentation (two columns) -->
+    <section id="learn" class="py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                    <!-- Governance Column (anchored) -->
+                    <div id="governance" class="space-y-4">
+                        <h2 class="text-3xl md:text-4xl font-bold font-display title-uppercase" x-text="data.governance.title"></h2>
+                        <p class="text-base md:text-lg font-light opacity-90 font-body" x-text="data.governance.description"></p>
+                    </div>
+
+                    <!-- Documentation Column (anchored) -->
+                    <div id="documentation" class="space-y-4">
+                        <h2 class="text-3xl md:text-4xl font-bold font-display title-uppercase" x-text="data.documentation.title"></h2>
+                        <p class="text-base md:text-lg font-light opacity-90 font-body" x-text="data.documentation.description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
         <div class="container mx-auto px-4">
@@ -208,7 +229,7 @@
         </div>
     </section>
 
-    <!-- Links Section -->
+    <!-- Links Section (restored near footer) -->
     <section id="links" class="bg-brand-charcoal py-12 md:py-24 border-t border-opacity-20 border-brand-cream">
         <div class="container mx-auto px-4">
             <div class="max-w-5xl mx-auto">

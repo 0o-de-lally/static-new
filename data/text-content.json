@@ -1,7 +1,7 @@
 {
   "siteTitle": "Open Libra - The Future, Secured",
   "brand": {
-    "name": "open libra",
+  "name": "Open Libra",
     "logoAlt": "Open Libra Logo"
   },
   "navigation": [
@@ -24,7 +24,7 @@
   ],
   "hero": {
     "title": "Independent Capital for the Age of Acceleration",
-    "subtitle": "The investment DAO engineered for centuries"
+  "subtitle": "The institutional investment DAO engineered for centuries"
   },
   "about": {
     "title": "AI-Plus Strategy",
@@ -37,8 +37,8 @@
       "description": "Designed for perpetual existence, Open Libra's structure enables capital and mission to compound uninterrupted over 100+ years."
     },
     {
-      "title": "All Weather, All Opportunity",
-      "description": "Every asset class is under consideration. Having a broad portfolio mandate or a narrow AI mandate are equivalent, since AI will disrupt everything."
+  "title": "All-Weather, Opportunity-Driven",
+  "description": "We consider every asset class. A broad mandate and an AI-first mandate converge as AI reshapes every market."
     },
     {
       "title": "The Rails of Perpetual Capital",
@@ -49,16 +49,16 @@
     "title": "Our Foundation",
     "pillars": [
       {
-        "title": "Main street common sense",
-        "description": "Blockchain is not magical, it's table-stakes for independent capital. Capital must compound with rigor, transparency, and alignment to endure."
+  "title": "Main Street Common Sense",
+  "description": "Blockchain is not magical; it's table stakes for independent capital. Capital must compound with rigor, transparency, and alignment to endure."
       },
       {
-        "title": "Independent & Unstoppable",
-        "description": "Blockchain Built on decentralized infrastructure, Open Libra operates beyond agency, jurisdictional, and custodial risks, providing an unforgeable record of capital. Investment DAOs are the endgame of blockchain."
+  "title": "Independent & Enduring",
+  "description": "Built on decentralized infrastructure, Open Libra operates beyond agency, jurisdictional, and custodial risks, providing an unforgeable record of capital."
       },
       {
-        "title": "A battle-tested open funding model",
-        "description": "Capital is allocated through specialized sub-DAOs, enabling parallel innovation, risk containment, and governance specialization."
+  "title": "An Open Funding Model",
+  "description": "Capital is allocated through specialized sub-DAOs, enabling parallel innovation, risk containment, and governance specialization."
       }
     ]
   },
@@ -68,7 +68,7 @@
     "items": [
       {
         "title": "Open Libra Blockchain",
-        "description": "First open Move smart contract platform. Forked from Facebook's Libra/Diem with complete sovereignty and no external dependencies.",
+  "description": "An open Move smart contract platform, originally forked from Facebook's Libra/Diem, with full sovereignty.",
         "fullWidth": true
       },
       {
@@ -89,7 +89,7 @@
       },
       {
         "title": "VDF Miner",
-        "description": "Time-based token distribution. No energy requirements, no capital barriers. Commitment determines allocation.",
+  "description": "Time-based token distribution. Minimal energy requirements and no capital barriers. Commitment determines allocation.",
         "fullWidth": true
       }
     ]
@@ -103,10 +103,10 @@
   },
   "documentation": {
     "title": "A proud history of transparency",
-    "description": "We play a long and open game. Which means reacting and growing stronger though consensus. We document everything, and share it all publicly."
+  "description": "We play a long and open game. That means reacting and growing stronger through consensus. We document everything and share it publicly."
   },
   "example": {
-    "title": "Example: A Sub-DAO in Action",
+  "title": "Example: A Sub-DAO in Action",
     "description": "Here's an example of a sub-DAO that could be launched on the Open Libra platform.",
     "sections": [
       {
@@ -121,7 +121,7 @@
       },
       {
         "id": "dual_governance",
-        "title": "Disbursements Controlled by Global and Donor policy",
+    "title": "Disbursements Controlled by Global and Donor Policy",
         "body": "Funding proposals (e.g., 'Train AI models on open genomics datasets') are submitted. Disbursements are approved by both global governance (DAO token holders) and direct contributors (donors to that sub-DAO), ensuring funds are spent on high-impact, aligned projects."
       }
     ],
