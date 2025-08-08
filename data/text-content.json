@@ -1,7 +1,7 @@
 {
   "siteTitle": "Open Libra - The Future, Secured",
   "brand": {
-  "name": "open libra",
+    "name": "open libra",
     "logoAlt": "Open Libra Logo"
   },
   "navigation": [
@@ -24,7 +24,7 @@
   ],
   "hero": {
     "title": "Independent Capital for the Age of Acceleration",
-  "subtitle": "The investment DAO engineered for centuries"
+    "subtitle": "The investment DAO engineered for centuries"
   },
   "about": {
     "title": "AI-Plus Strategy",
@@ -37,8 +37,8 @@
       "description": "Designed for perpetual existence, Open Libra's structure enables capital and mission to compound uninterrupted over 100+ years."
     },
     {
-  "title": "All-Weather, Opportunity-Driven",
-  "description": "We consider every asset class. A broad mandate and an AI-first mandate converge as AI reshapes every market."
+      "title": "All Weather, All Opportunity",
+      "description": "We consider every asset class. A broad mandate and an AI-first mandate converge as AI reshapes every market."
     },
     {
       "title": "The Rails of Perpetual Capital",
@@ -85,11 +85,11 @@
       },
       {
         "title": "Slow Wallets",
-        "description": "Mandatory vesting schedule. Early participants get better terms, speculation gets worse terms."
+    "description": "Mandatory vesting schedule. Early participants receive better terms; speculation is disincentivized."
       },
       {
         "title": "VDF Miner",
-  "description": "Time-based token distribution. Minimal energy requirements and no capital barriers. Commitment determines allocation.",
+  "description": "Time-based token distribution. Minimal energy requirements and low capital barriers. Commitment determines allocation.",
         "fullWidth": true
       }
     ]
@@ -120,8 +120,8 @@
         "body": "Any team can launch a new health-focused AI Sub-DAO (e.g., rare disease diagnostics, medical imaging models). Each has its own Community Wallet where backers can contribute. Builders, researchers, and donors collaborate in a transparent, decentralized way."
       },
       {
-  "description": "Time-based token distribution. Minimal energy requirements and low capital barriers. Commitment determines allocation.",
-    "title": "Disbursements Controlled by Global and Donor Policy",
+        "id": "dual_governance",
+        "title": "Disbursements Controlled by Global and Donor Policy",
         "body": "Funding proposals (e.g., 'Train AI models on open genomics datasets') are submitted. Disbursements are approved by both global governance (DAO token holders) and direct contributors (donors to that sub-DAO), ensuring funds are spent on high-impact, aligned projects."
       }
     ],
