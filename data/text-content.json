@@ -1,7 +1,7 @@
 {
   "siteTitle": "Open Libra - The Future, Secured",
   "brand": {
-  "name": "Open Libra",
+  "name": "open libra",
     "logoAlt": "Open Libra Logo"
   },
   "navigation": [
@@ -24,7 +24,7 @@
   ],
   "hero": {
     "title": "Independent Capital for the Age of Acceleration",
-  "subtitle": "The institutional investment DAO engineered for centuries"
+  "subtitle": "The investment DAO engineered for centuries"
   },
   "about": {
     "title": "AI-Plus Strategy",
@@ -98,11 +98,11 @@
     "faq": "FAQ"
   },
   "governance": {
-    "title": "Governance in service of perpetuity",
+  "title": "Governance in Service of Perpetuity",
     "description": "Open Libra employs a layered governance model combining decentralized sub-DAOs, AI-assisted decision support, and immutable on-chain voting to ensure durability, adaptability, and stakeholder alignment over generations."
   },
   "documentation": {
-    "title": "A proud history of transparency",
+  "title": "A Proud History of Transparency",
   "description": "We play a long and open game. That means reacting and growing stronger through consensus. We document everything and share it publicly."
   },
   "example": {
@@ -112,7 +112,7 @@
       {
         "id": "matching_funds",
         "title": "Matching Funds for Sub-DAOs",
-        "body": "A research group creates an AI Drug Discovery Sub-DAO. Your platform provides matching funds to incentivize early donors. The more support the sub-DAO gets, the more global matching it receives."
+  "body": "A research group creates an AI Drug Discovery Sub-DAO. The platform provides matching funds to incentivize early donors. The more support the sub-DAO gets, the more global matching it receives."
       },
       {
         "id": "open_creation",
@@ -120,7 +120,7 @@
         "body": "Any team can launch a new health-focused AI Sub-DAO (e.g., rare disease diagnostics, medical imaging models). Each has its own Community Wallet where backers can contribute. Builders, researchers, and donors collaborate in a transparent, decentralized way."
       },
       {
-        "id": "dual_governance",
+  "description": "Time-based token distribution. Minimal energy requirements and low capital barriers. Commitment determines allocation.",
     "title": "Disbursements Controlled by Global and Donor Policy",
         "body": "Funding proposals (e.g., 'Train AI models on open genomics datasets') are submitted. Disbursements are approved by both global governance (DAO token holders) and direct contributors (donors to that sub-DAO), ensuring funds are spent on high-impact, aligned projects."
       }
@@ -128,8 +128,8 @@
     "summary": "This model enables the open creation of specialized investment funds, where spending decisions are governed by both global and local stakeholders, ensuring alignment and impact."
   },
   "cta": {
-    "title": "Pro-social by constitution",
-    "description": "The most funded endowments in Open Libra have been created for philanthropic purposes. Our goal is to enable these DAOs to become among the world's largest public endowments.",
+  "title": "Pro-Social by Constitution",
+  "description": "Many of the largest endowments on Open Libra are philanthropic. Our goal is to enable these DAOs to scale into leading public endowments.",
     "buttons": [
       {
         "label": "View Governance",
